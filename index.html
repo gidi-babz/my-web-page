@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="imgs/favicon-32x32.png">
+        <script defer src="app.js"></script>
+        <title>Welcome to My Personal Page</title>
+    </head>
+
+    <body>
+        <main>
+            <!-- Header -->
+            <header class="header">
+                <nav class="nav container">
+                    <div class="logo">B</div>
+                    <ul class="nav__links">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link ">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Contact</a>
+                        </li>
+                        <a href="#" class="btn btn__full">Download CV</a>
+                    </ul>
+                </nav>
+                <div class="heading container grid grid-2-cols">
+                    <h1 class="heading__primary">
+                        <span class="heading__primary--main "> I'm Babatunde </span>
+                        <span class="heading__primary--sub "> Web Developer </span>
+                        <p class="heading__primary--text"> Forward thinking front-end developer with a passion for
+                            making beautiful user interfaces with front-end technologies. </p>
+                    </h1>
+                    <div class="heading__img">
+                        <!-- <img src="imgs/_img-hero.jpg" alt="Hero Image" class="heading__img--hero"> -->
+                    </div>
+                </div>
+            </header>
+            <!-- About me -->
+            <section class="section section-about">
+                <div class="container grid grid-2-cols">
+                    <div class="about">
+                        <h2 class="about__me">About Me</h2>
+                        <p class="about__me--text"> Forward thinking front-end web developer with extensive knowledge of
+                            responsive web design with a passion for making beautiful user interfaces using front-end
+                            technologies. Lots of time and resources invested into learning best practices and bringing
+                            web designs to life. </p>
+                        <div class="projects">
+                            <h2 class="about__projects--head">Projects</h2>
+                            <div class="project__cards">
+                                <a href="https://github.com/gidi-babz/loruki">
+                                    <div class="project__card card">
+                                        <h3>Loruki Landing Page</h3>
+                                    </div>
+                                </a>
+                                <a href="https://banklist.netlify.app">
+                                    <div class="project__card card">
+                                        <h3>The Bankist App.</h3>
+                                    </div>
+                                </a>
+                                <a href="https://github.com/gidi-babz/Booklist-app">
+                                    <div class="project__card card">
+                                        <h3>The Booklist App.</h3>
+                                    </div>
+                                </a>
+                                <a href="banklist-dom.netlify.app">
+                                    <div class="project__card card">
+                                        <h3>The Bankist Website</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__skills">
+                        <h2 class="about__skills--head">My Skills</h2>
+                        <div class="line">
+                            <div class="info">
+                                <span>HTML</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="bars html"></div>
+                        </div>
+                        <div class="line">
+                            <div class="info">
+                                <span>CSS</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="bars css"></div>
+                        </div>
+                        <div class="line">
+                            <div class="info">
+                                <span>JAVASCRIPT</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="bars js"></div>
+                        </div>
+                        <div class="line">
+                            <div class="info">
+                                <span>REACT</span>
+                                <span>40%</span>
+                            </div>
+                            <div class="bars react"></div>
+                        </div>
+                        <div class="line">
+                            <div class="info">
+                                <span>GIT</span>
+                                <span>45%</span>
+                            </div>
+                            <div class="bars git"></div>
+                        </div>
+                        <div class="line">
+                            <div class="info">
+                                <span>NODE</span>
+                                <span>35%</span>
+                            </div>
+                            <div class="bars node"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </section>
+            <!-- Contact -->
+            <section class="section section-contact">
+                <div class="contact container">
+                    <div class="contact__heading">
+                        <span class="head--1">Contact Me</span>
+                        <span class="head--2">Get In Touch</span>
+                    </div>
+                    <div class="contact__main grid grid-2-cols">
+                        <div class="cotact__form">
+                            <form action="#" class="cta-form">
+                                <div class="flex">
+                                    <label for="full-name">Full name</label>
+                                    <input type="text" id="full-name" placeholder="John Smith" required>
+                                </div>
+                                <div class="flex">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" placeholder="me@example.com" required>
+                                </div class="flex">
+                                <div class="flex">
+                                    <label for="select-where">Where did you hear about us?</label>
+                                    <select id="seclect-where" required>
+                                        <option value="">Please choose one option:</option>
+                                        <option value="friends">Friends and family</option>
+                                        <option value="youtube">Youtube video</option>
+                                        <option value="ad">Facebook ad</option>
+                                        <option value="podcast">podcast</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <textarea name="text" cols="100" rows="7" placeholder="Message"></textarea>
+                                </div>
+                                <button class="btn btn--form">Send Message</button>
+                            </form>
+                        </div>
+                        <div class="contact__details">
+                            <div class="contact__details--display flex">
+                                <div class="icon"> 📞 </div>
+                                <div class="text">
+                                    <span class="text--1">Call me</span>
+                                    <span class="text--2"> <a href="tel:+234 816-384-843">816-384-843</a> </span>
+                                </div>
+                            </div>
+                            <div class="contact__details--display flex">
+                                <div class="icon"> 📫 </div>
+                                <div class="text">
+                                    <span class="text--1">E-mail</span>
+                                    <span class="text--2"><a
+                                            href="mailto:tunex4ind@gmail.com">tunex4ind@gmail.com</a></span>
+                                </div>
+                            </div>
+                            <div class="contact__details--display flex">
+                                <div class="icon"> 📍</div>
+                                <div class="text">
+                                    <span class="text--1">Location</span>
+                                    <span class="text--2"> Plt 26, VGC, Lagos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container grid grid-3-cols">
+                <div class="footer__logo">B</div>
+                <div class="footer__nav">
+                    <ul class="footer__links">
+                        <li class="footer__nav-item">
+                            <a href="#" class="footer__link">HOME</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#" class="footer__link">ABOUT</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#" class="footer__link">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <ul class="social__nav">
+                        <li class="footer__nav--social">
+                            <a href="#" class="footer__link flex">
+                                <i class="fa-brands fa-facebook"></i>
+                                <p> Facebook</p>
+                            </a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#" class="footer__link flex">
+                                <i class="fa-brands fa-twitter"></i>
+                                <p> Twitter</p>
+                            </a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="#" class="footer__link flex">
+                                <i class="fa-brands fa-github"></i>
+                                <p> Github</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright"> &copy; 2022 Olowoyeye Babatunde </div>
+        </footer>
+    </body>
+
+</html>
