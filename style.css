@@ -105,6 +105,13 @@ button:hover {
   column-gap: 6.4rem;
 }
 
+.grid-2-cols-custom {
+  grid-template-columns: 1.5fr 1.4fr;
+  align-items: center;
+  justify-content: center;
+  column-gap: 6.4rem;
+}
+
 .grid-3-cols {
   grid-template-columns: 6rem 1fr 1fr;
   align-items: center;
@@ -206,10 +213,13 @@ a.btn__full:active {
   font-size: 1.6rem;
   color: #fff;
   margin-top: 2.4rem;
-  line-height: 1.6;
+  line-height: 1.7;
+  text-align: left;
+  width: 80%;
 }
 
 .heading__img {
+  /* justify-self: start; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
     url(imgs/_img-hero.jpg);
   background-size: cover;
